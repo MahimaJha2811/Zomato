@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background: url(bgImg.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    margin: auto;
+    width: 80%;
+    height: 72px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+#right ul{
+    display: flex;
+    color: #ffff;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(60vh - 72px);
+}
+
+#main #logo img{
+    width: 280px;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+#tagline h1{
+    color: #fff;
+    margin: 30px 0;
+    font-weight: 400!important;
+    font-size: 35px;
+}
+
+#searchcontainer{
+    background: #fff;
+    padding: 15px 25px;
+    width: 50%;
+    border-radius: 12px;
+    display: flex;
+    margin-top: 30px
+}
+
+#searchcontainer input{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    position: absolute;
+}
+
+.SearchBar{
+    width: 300px;
+    height: 30px;
+   
+}
+
+span{
+    padding-left: 15px;
+    color: #828282;
+    padding-left: 130px;
+}
+
+.dropBox{
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+   height: 30px;
+}
+
+.footer{
+    width: 100%;
+    background: rgb(248, 248, 248);
+}
+
+.footerSection1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+.inFootSection1{
+    margin-top: 20px;
+    margin-right: 220px;
+}
+
+.footerimg{
+    margin-top: 20px;
+    margin-left: 210px;
+}
+
+#country{
+    margin-top: 10px;
+}
+
+.inFootSection1{
+    display: flex;
+    gap: 10px;
+}
+
+.footerList{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 1.2rem;
+    margin: 10px 30px;
+}
+
+.footerList ul li{
+    list-style: none;
+    line-height: 1.6rem
+}
+
+.footerText{
+    margin-left: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.footerList{
+    margin-bottom: 30px;
+}
