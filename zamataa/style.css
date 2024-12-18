@@ -45,6 +45,12 @@ nav{
     font-weight: 200;
 }
 
+#right ul li{
+    color: #fff;
+    text-decoration: none;
+
+}
+
 #main{
     display: flex;
     flex-direction: column;
@@ -217,6 +223,12 @@ span{
   width: 32%;
   box-shadow: #1c1c1c opx 1.4px 2.8px;  
 }
+
+.place a{
+    color: black;
+    text-decoration: none;
+}
+
 .place_name h5{
   margin-bottom: 5px;
   font-size: 20px;
@@ -326,4 +338,81 @@ span{
   font-size: 14px;
   font-weight: 300;
   text-decoration: none;
+}
+
+.footerList a{
+    color: #000;
+    text-decoration: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway",sans-serif;
+}
+
+.getAppIcon{
+    margin-top: 4px;
+}
+
+#services{
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 40px;
+    gap: 25px;
+    border-radius: 10px;
+    width: 1100px;
+    margin-left: 275px;
+    overflow: hidden;
+}
+
+#option{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+}
+
+#option #image{
+    height: 100%;
+    width: 100%;
+}
+
+#option #image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: bottom center;
+}
+
+#info{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    border: 2px solid #eee;
+    border-radius: 0 0 12px 12px;
+    padding: 10px 20px 16px 20px;
+    line-height: 30px;
+}
+
+#info p{
+    font-size: 16px;
+    color: #4f4f4f;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#info h2{
+    font-family: 20px;
+    color: #363636;
+    font-weight: 500;
+}
+
+.getApp{
+    font-weight: 100;
 }
