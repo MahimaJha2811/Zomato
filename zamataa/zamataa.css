@@ -5,6 +5,10 @@
     font-family: "Raleway",sans-serif;
 }
 
+.getAppIcon{
+    margin-top: 4px;
+}
+
 #services{
     display: flex;
     width: 100%;
